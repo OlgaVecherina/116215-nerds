@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+	font-style: normal;
+	font-family: "Roboto Medium", sans-serif;
+	color: black;
+	text-align: left;
+	line-height: 36px}
+	
+h2 {
+	font-size: 36px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: "Roboto Medium", sans-serif;
+	color: black;
+	text-align: left;
+	line-height: 36px}
+	
+body {
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: "Roboto Medium", sans-serif;
+	color: black;
+	text-align: left;
+	line-height: 32px}
+
+
