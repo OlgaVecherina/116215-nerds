@@ -6,13 +6,11 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-    
- <header class="main-header">
-   <div class="container">
+       
+ <header class="page-header">
+   <div class="container clearfix">
      <div class="index-logo">
-       <img src="img/nerds.png" width="#" height="#" alt="Nerd's">
+       <img src="img/nerds.png" width="130px" height="58px" alt="nerd's">
      </div>
      
      <nav class="main-navigation">
@@ -34,16 +32,16 @@
      
      <div class="user-block">
      <a class="login" href="#">Корзина</a>
+     </div>
           
      <div class="text">
        <h1>Добро пожаловать в магазин готовых макетов</h1>
      </div>
-   </div> 
-   </header> 
+   </div>
+ </header> 
    
-  <div class="catalog-content">
     <main class="container">
-      <div class="aside">
+      <aside>
         <section class="value">
           <h2>Стоимость</h2>
           <div class="scale"><img src="http://placehold.it/150X100">
@@ -72,7 +70,7 @@
          
          <p><input type="submit">Показать</p>
        </section>
-     </div>
+     </aside>
   
   <div class="catalog-wrapper">
     
@@ -83,31 +81,33 @@
         <li>по типу</li>
         <li>по стоимости</li>
       </ul>
-      <div class="catalog-control">
-        <a href="#">sort-up</a>
-        <a href="#">sort-down</a>
-      </div>
-    </div> 
+    </div>
+      
+    <div class="catalog-control">
+      <a href="#">sort-up</a>
+      <a href="#">sort-down</a>
+    </div>
+     
   
     <div class="catalog">
       <ul class="catalog-item">
         <li>
-        <img src="img/label1.png" width="#" height="#" alt="label1">
+          <div class="item item1"><img src="img/label1.png" width="#" height="#" alt="label1"></div>
         </li>
         <li>
-        <img src="img/label2.png" width="#" height="#" alt="label2">
+          <div class="item item2"><img src="img/label2.png" width="#" height="#" alt="label2"></div>
         </li>
         <li>
-        <img src="img/label3.png" width="#" height="#" alt="label3">
+          <div class="item item3"><img src="img/label3.png" width="#" height="#" alt="label3"></div>
         </li>
         <li>
-        <img src="img/label4.png" width="#" height="#" alt="label4">
+          <div class="item item4"><img src="img/label4.png" width="#" height="#" alt="label4"></div>
         </li>
         <li>
-        <img src="img/label5.png" width="#" height="#" alt="label5">
+          <div class="item item5"><img src="img/label5.png" width="#" height="#" alt="label5"></div>
         </li>
         <li>
-        <img src="img/label6.png" width="#" height="#" alt="label6">
+          <div class="item item6"><img src="img/label6.png" width="#" height="#" alt="label6"></div>
         </li>
       </ul>
     </div>
@@ -122,27 +122,24 @@
   </div>
 </main>
       
-  <div class="aside">     
-     <section class="map">
-       <img src="img/Map.png" width="1200px" height="#" alt="Map">
-     </section>
-   </div>
-    
+<aside>     
+  <section class="map">
     <section class="footer-contacts">
       <h2>Nerds design studio</h2>
       <p>191186, Санкт-Петербург,<br>
          ул. Б. Конюшенная, д. 19/8</p>
       <p>тел. +7 (812) 275-75-75</p>
-      
       <a href="#">Напишите нам</a>
     </section>
+      <img src="img/map.png" width="1200px" height="#" alt="Карта">
+  </section>
+      
+  <section class="icon">
+    <img src="img/nerds2" width="#" height="#" alt="nerd's"> 
+  </section>
+</aside>
     
-    <section class="icon">
-      <img src="img/nerds2" width="#" height="#" alt="nerd's"> 
-    </section>
-  </div>
-    
-  <footer class="main-footer">
+  <footer class="page-footer">
           
     <section class="footer-social">
        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
