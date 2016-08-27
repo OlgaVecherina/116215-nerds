@@ -19,15 +19,17 @@ h2 {
 }
 	
 body {
+	margin: 0;
+	padding: 0;
 	font-size: 16px;
 	font-weight: normal;
 	font-style: normal;
 	font-family: "Roboto Medium", "Arial", sans-serif;
 	color: #000;
-	line-height: 32px
+	line-height: 32px;
 }
 	
-h1, h2, h3, ul, li, p {
+h1, h2, h3, ul, li, p, figure {
 	margin: 0;
 	padding: 0;
 }
@@ -66,10 +68,6 @@ img {
 	line-height: 36px;
 }
 
-.page-header {
-	margin-bottom: 60px;
-}
-	
 .index-logo {
 	float: left;
 }
@@ -99,17 +97,6 @@ img {
 	
 .user-block {
 	float: right;
-}
-
-body {
-  font-size: 16px;
-  font-family: "Roboto", "Arial", sans-serif;
-  color: #000000;
-}
-
-.page-header {
-  padding-top: 50px;
-  background: #eeeeee;
 }
 
 .slider {
@@ -245,10 +232,6 @@ body {
   background: #c1c1c1;
 }
 	
-.text-left {
-	clear: both;
-}
-	
 .shop {
 	margin-bottom: 80px;
 }
@@ -265,22 +248,24 @@ body {
 }
 
 .about-us {
-	margin-bottom: 150px;
 	padding: 10px 10px;
 }
 
-.content-left {
+.about-us-left-column {
 	float: left;
 	width: 580px;
 	min-height: 330px;
 }
 
-.content-right {
+.about-us-right-column {
 	float: right;
 	width: 240px;
 	min-height: 330px;
 }
-	
+
+.partner-item {
+float: left;
+}
 .features {
 	margin-bottom: 70px;
 }
@@ -312,14 +297,20 @@ body {
 	margin-right: 0;
 }
 
-.form action {
-	display: block;
-}
+/* стили для каталога */
 
-body {
-  font-family: 'Roboto', 'Arial', sans-serif;
-  font-size: 16px;
-  color: #000;
+.catalog-left-column {
+	float: left;
+	width: 240px;
+}
+.catalog-right-column {
+	float: right;
+	width: 560px;
+}
+.catalog-sort-option {
+	display: inline-block;
+	vertical-align: top;
+	float: left;
 }
 
 .range-filter {
@@ -397,24 +388,34 @@ body {
   outline: none;
   background: #f1f1f1;
 }
+
+.catalog-sort-control {
+	float: right;
+	}
+.catalog-item {
+  float: left;
+  width: 240px;
+  margin-right: 80px;
+  	}
+.catalog-item:nth-child(2n) {
+	margin-right: 0;
+	}
 .page-footer {
 	margin-top: 0;
     padding-top: 75px;
     padding-bottom: 75px;
 }
 
-.footer-social {
+.page-footer-social {
     float: left;
     width: 240px;
     min-height: 60px;
-	margin-left: 160px;
 }
 
-.footer-text {
+.page-footer-text {
     float: left;
     width: 540px;
     min-height: 60px;
-	margin-left: 80px;
 } 
 
 

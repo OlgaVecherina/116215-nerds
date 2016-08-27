@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Нёрдс - каталог</title>
-    <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet"> 
   </head>
   
   <body> 
@@ -87,22 +87,23 @@
       </aside>
   
   <div class="catalog-right-column">
-    <div class="catalog-sort">
-      <span class="catalog-sort-title clearfix">Сортировать</span>
+    <div class="catalog-sort clearfix">
+      <span class="catalog-sort-option">Сортировать:</span>
         <a href="#" class="catalog-sort-option">по цене</a>
         <a href="#" class="catalog-sort-option">по типу</a>
         <a href="#" class="catalog-sort-option">по стоимости</a>
+        <div class="catalog-sort-control">
+          <a href="#" class="catalog-sort-up">sort-up</a>
+          <a href="#" class="catalog-sort-down">sort-down</a>
+        </div>
     </div>
       
-    <div class="catalog-sort-control">
-      <a href="#" class="catalog-sort-up">sort-up</a>
-      <a href="#" class="catalog-sort-down">sort-down</a>
-    </div>
+    
      
   
     <div class="catalog-block clearfix">
       
-      <a href="#" class="catalog-item">
+      <section class="catalog-item">
         <figure class="catalog-image"><img src="img/aviator.jpg" width="240" height="240" alt="aviator">
           </figure>
           <div class="catalog-item-block">
@@ -110,9 +111,9 @@
             <p class="catalog-item-info">Одностраничный макетс авторским дизайном</p>
             <span class="btn catalog-item-btn">8000 р.</span>
           </div>
-      </a>
+      </section>
       
-      <a href="#" class="catalog-item">
+      <section class="catalog-item">
         <figure class="catalog-image"><img src="img/desert.jpg" width="240" height="240" alt="desert">
           </figure>
           <div class="catalog-item-block">
@@ -120,9 +121,9 @@
             <p class="catalog-item-info">Интернет-магазин с личным кабинетом</p>
             <span class="btn catalog-item-btn">10000 р.</span>
           </div>
-      </a>
+      </section>
            
-      <a href="#" class="catalog-item">  
+      <section class="catalog-item">  
         <figure class="catalog-image"><img src="img/forte.jpg" width="240" height="240" alt="forte">
           </figure> 
           <div class="catalog-item-block">
@@ -130,9 +131,9 @@
             <p class="catalog-item-info">Отличный макет для личного блога</p>
             <span class="btn catalog-item-btn">5000 р.</span>
           </div>
-      </a>
+      </section>
           
-      <a href="#" class="catalog-item">  
+      <section class="catalog-item">  
         <figure class="catalog-image"><img src="img/modern-organic-thai.jpg" width="240" height="240" alt="modern-organic-thai">
           </figure>
           <div class="catalog-item-block">
@@ -140,9 +141,9 @@
             <p class="catalog-item-info">Сайт для ресторана быстрого питания</p>
             <span class="btn catalog-item-btn">12000 р.</span>
           </div>
-      </a>
+      </section>
           
-      <a href="#" class="catalog-item">  
+      <section class="catalog-item">  
         <figure class="catalog-image"><img src="img/avenue.jpg" width="240" height="240" alt="avenue">
           </figure>
           <div class="catalog-item-block">
@@ -150,9 +151,9 @@
             <p class="catalog-item-info">Макет для блога о путешествиях</p>
             <span class="btn catalog-item-btn">8000 р.</span>
           </div>
-      </a>
+      </section>
          
-      <a href="#" class="catalog-item"> 
+      <section class="catalog-item"> 
         <figure class="catalog-image"><img src="img/dovetail.jpg" width="240" height="240" alt="dovetail">
           </figure>
          <div class="catalog-item-block">
@@ -160,15 +161,15 @@
             <p class="catalog-item-info">Интернет-магазин с галереей товаров</p>
             <span class="btn catalog-item-btn">14000 р.</span>
           </div>
-      </a> 
-                
+      </section> 
+     </div>            
     <div class="catalog-paginator">
       <a href="#" class="catalog-paginator-active">1</a>
       <a href="#">2</a>
       <a href="#">3</a>
       <a href="#" class="catalog-paginator-next">Следующая</a>
     </div>
-   </div>
+  
    </div>
    </div>
 </main>
@@ -188,14 +189,14 @@
       <img src="img/map.png" width="1200px" height="#" alt="Map">
     </div>
       
-  <footer class="page-footer">
+  <footer class="page-footer clearfix">
           
     <section class="page-footer-social">
-       <a href="#" class="social-btn social-btn-vk"></a>
-       <a href="#" class="social-btn social-btn-fb" ></a>
-       <a href="#" class="social-btn social-btn-inst" ></a>
+       <a href="#" class="social-btn social-btn-vk">В контакте</a>
+       <a href="#" class="social-btn social-btn-fb" >Facebook</a>
+       <a href="#" class="social-btn social-btn-inst" >Instagram</a>
     </section>
-    <section class="footer-text">  
+    <section class="page-footer-text">  
        <p class="footer-title">Давайте дружить, это выгодно!</p>
        <p class="footer-info">Скидка 10% для друзей из социальных сетей!</p>
     </section>

@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Nerds - Главная страница</title>
-    <link href="css/style.css" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Roboto:500,300" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   
   <body>
@@ -21,10 +21,10 @@
          <a href="index.html" class="current">Студия</a>
        </li>
        <li>
-         <a href="catalog.html">Клиенты</a>
+         <a href="#">Клиенты</a>
        </li>
        <li>
-         <a href="#">Магазин</a>
+         <a href="catalog.html">Магазин</a>
        </li>
        <li>
          <a href="#">Контакты</a>
@@ -35,51 +35,41 @@
      </ul>
      </nav>
      
-             
-     <div class="slider-container clearfix">
-       <div class="slider-container">
-         <input type="radio" id="btn-1" name="toggle" checked>
-         <input type="radio" id="btn-2" name="toggle">
-         <input type="radio" id="btn-3" name="toggle">
-       </div>
+     <div class="slider">
+        <input type="radio" id="btn-1" name="toggle" checked>
+        <input type="radio" id="btn-2" name="toggle">
+        <input type="radio" id="btn-3" name="toggle">
         <div class="slider-controls">
           <label for="btn-1"></label>
           <label for="btn-2"></label>
           <label for="btn-3"></label>
         </div>
-      </div>
-                     
-        <div class="slider-item clearfix">
-          <div class="slider-item">
-            <div class="slider-text">
-              <h2 class="slider-title">Долго, дорого,скрупулезно</h2>
-              <p class="slider-info">Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
-              <a href="#" class="btn slider-btn">Узнать больше</a>
-            </div>
-          </div>
-        </div>
-          
-        <div class="slider-item clearfix">
-          <div class="slider-item">
+        <div class="slides">
+          <div class="slide">
             <div class="slide-text">
-              <h2 class="slide-title">Любите ли вы математику, как любим ее мы?</h2>
-              <p class="slider-info">Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать.              </p>
-              <a href="#" class="btn slider-btn">Узнать больше</a>
+              <div class="slide-title">Долго, дорого,<br>скрупулезно</div>
+              <p>Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
+              <a class="btn" href="#">Узнать больше</a>
             </div>
           </div>
-        </div>
-          
-        <div class="slider-item clearfix">
-          <div class="slider-item">
-            <div class="slider-text">
-              <h2 class="slider-title">Только наркотики,<br> только хардкор!</h2>
-              <p class="slider-info">Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов.              </p>
-              <a href="#" class="btn slider-btn">Узнать больше</a>
+          <div class="slide">
+            <div class="slide-text">
+              <div class="slide-title">Любите ли вы математику,<br> как любим ее мы?</div>
+              <p>Нашим дизайнерам мы удаляем нейроны, ответственные<br>за креатив, чтобы дать им возможность все просчитать.</p>
+              <a class="btn" href="#">Узнать больше</a>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-text">
+              <div class="slide-title">Только наркотики,<br> только хардкор!</div>
+              <p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов.</p>
+              <a class="btn" href="#">Узнать больше</a>
             </div>
           </div>
         </div>
       </div>
-    </header>
+      </div>
+      </header>        
      
   <main class="container">
     
@@ -104,9 +94,10 @@
     </div>
            
     <div class="about-us clearfix">
-      <div class="about-us-left-column"> 
-        <p class="about-us-title">Мы - маленькая, но гордая<br> дизайн-студия из Краснодара.</p>
-        <p clas="about-us-info">Исповедуем принципы минимализма и чистоты. Ставим математический<br> 
+      <p class="about-us-title">Мы - маленькая, но гордая дизайн-студия из Краснодара.</p>
+      
+        <div class="about-us-left-column"> 
+        <p class="about-us-info">Исповедуем принципы минимализма и чистоты. Ставим математический<br> 
         расчет выше креатива. Работаем не покладая рук, как роботы.</p>
         <p class="about-us-details-title">Выполняем заказы на разработку:</p>
         <ul class="about-us-details-list">
@@ -158,14 +149,14 @@
       <img src="img/map.png" width="1200px" height="#" alt="Map">
     </div>
       
-  <footer class="page-footer">
+  <footer class="page-footer clearfix">
           
     <section class="page-footer-social">
-       <a href="#" class="social-btn social-btn-vk"></a>
-       <a href="#" class="social-btn social-btn-fb" ></a>
-       <a href="#" class="social-btn social-btn-inst" ></a>
+       <a href="#" class="social-btn social-btn-vk">В контакте</a>
+       <a href="#" class="social-btn social-btn-fb" >Facebook</a>
+       <a href="#" class="social-btn social-btn-inst" >Instagram</a>
     </section>
-    <section class="footer-text">  
+    <section class="page-footer-text">  
        <p class="footer-title">Давайте дружить, это выгодно!</p>
        <p class="footer-info">Скидка 10% для друзей из социальных сетей!</p>
     </section>
